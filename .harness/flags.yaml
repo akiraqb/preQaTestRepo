@@ -41,6 +41,6 @@ featureFlags:
         default:
           onVariation: "true"
           offVariation: "false"
-        state: "on"
+        state: "off"
   projectIdentifier: SetupTest2
   orgIdentifier: default
