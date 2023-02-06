@@ -21,5 +21,26 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "on"
+  - flag:
+      name: p2
+      identifier: p2
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   projectIdentifier: SetupTest2
   orgIdentifier: default
